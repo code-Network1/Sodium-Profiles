@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "sodium-profiles",
+	"version": "${version}",
+	"name": "Sodium Profiles",
+	"description": "An unofficial add-on for Sodium that provides preset and custom performance profiles for quick settings configuration. Not affiliated with CaffeineMC.",
+	"authors": [
+		"7arbe"
+	],
+	"contact": {
+		"homepage": "https://github.com/code-Network1/sodium-profiles",
+		"sources": "https://github.com/code-Network1/sodium-profiles",
+		"issues": "https://discord.com/invite/f7rEpDCYPG"
+	},
+	"license": "LGPL-3.0-only",
+	"icon": "icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"dev.arbe.sodiumprofiles.client.SodiumProfilesClient"
+		],
+		"sodium:config_api_user": [
+			"dev.arbe.sodiumprofiles.client.SodiumProfilesConfigEntry"
+		]
+	},
+	"mixins": [
+		"sodium-profiles.client.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*",
+		"sodium": ">=0.8.0"
+	}
+}

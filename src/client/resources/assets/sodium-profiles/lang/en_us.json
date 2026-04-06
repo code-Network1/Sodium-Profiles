@@ -1,0 +1,34 @@
+{
+  "sodium-profiles.page.profiles": "Profiles",
+
+  "sodium-profiles.group.presets": "Preset Profiles",
+  "sodium-profiles.group.custom": "Custom Profiles",
+
+  "sodium-profiles.group.active": "Active Profile",
+  "sodium-profiles.active.none": "No profile selected",
+  "sodium-profiles.active.tooltip": "Shows the currently active profile.",
+
+  "sodium-profiles.profile.ultra_performance": "Ultra Performance",
+  "sodium-profiles.profile.performance": "Performance",
+  "sodium-profiles.profile.balanced": "Balanced",
+  "sodium-profiles.profile.quality": "Quality",
+
+  "sodium-profiles.preset.ultra.tooltip": "Maximum FPS — lowest visuals.\n\n§a▶ Render Distance: 4\n§a▶ Entity Distance: 50%\n§a▶ FPS Limit: 260\n§a▶ VSync: OFF\n§a▶ Clouds: OFF\n§a▶ Particles: Minimal\n§a▶ Ambient Occlusion: OFF\n§a▶ Mipmap: OFF\n§a▶ Biome Blend: OFF\n\n§cBest for low-end PCs or maximum FPS.",
+  "sodium-profiles.preset.performance.tooltip": "Good FPS with reasonable visuals.\n\n§e▶ Render Distance: 8\n§e▶ Entity Distance: 75%\n§e▶ FPS Limit: 260\n§e▶ VSync: OFF\n§e▶ Clouds: Fast\n§e▶ Particles: Decreased\n§e▶ Mipmap: 2\n§e▶ Biome Blend: 2\n\n§aBest balance of FPS and visuals.",
+  "sodium-profiles.preset.balanced.tooltip": "Balance between quality and performance.\n\n§b▶ Render Distance: 12\n§b▶ Entity Distance: 100%\n§b▶ FPS Limit: 120\n§b▶ VSync: ON\n§b▶ Clouds: Fancy\n§b▶ Particles: All\n§b▶ Mipmap: 4\n§b▶ Biome Blend: 5\n\n§aGood default for most PCs.",
+  "sodium-profiles.preset.quality.tooltip": "Maximum visual quality.\n\n§d▶ Render Distance: 16\n§d▶ Entity Distance: 150%\n§d▶ FPS Limit: 260\n§d▶ VSync: ON\n§d▶ Clouds: Fancy\n§d▶ Particles: All\n§d▶ Mipmap: 4\n§d▶ Biome Blend: 7\n§d▶ Chunk Fade: 1.0s\n\n§cBest for screenshots and high-end PCs.",
+
+  "sodium-profiles.custom.apply.tooltip": "Click to apply the '%s' profile settings.",
+
+  "sodium-profiles.button.create_profile": "+ Create Profile",
+  "sodium-profiles.button.create_profile.tooltip": "Save your current settings as a custom profile. Maximum 5 profiles.",
+  "sodium-profiles.button.delete_profile": "\u2716 Delete '%s'",
+  "sodium-profiles.button.delete_profile.tooltip": "Delete the custom profile '%s'.",
+
+  "sodium-profiles.button.save": "Save",
+  "sodium-profiles.button.cancel": "Cancel",
+
+  "sodium-profiles.screen.create_title": "New Profile",
+  "sodium-profiles.field.name": "Profile Name",
+  "sodium-profiles.field.name.hint": "Enter profile name..."
+}
